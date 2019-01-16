@@ -16,7 +16,7 @@ object Methods extends App {
   //method with no parameter lists at all.
   def name: String = System.getProperty("user.name")
 
-  println(s"Hello ${name}")
+  println(s"Hello $name")
 
   // method with multi-line expressions
   def getSquareString(input: Double): String = {
